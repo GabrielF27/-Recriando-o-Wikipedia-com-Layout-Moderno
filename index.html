@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&family=Roboto:wght@400;700&family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+    <title>Python</title>
+</head>
+<body>
+    <header>
+        <h1>PYTHON</h1>
+            <figure>
+                <img src="imagens/python-logo-2.png" alt="Logotipo Python">
+            </figure>
+    </header>
+
+    <main>
+        <nav id="choice-theme">
+            <a href="#article">Artigo</a>
+            <a href="#history">História</a>
+            <a href="#syntax-semantics">Sintaxe e semântica</a>
+            <a href="#data-types">Tipos de dados</a>
+            <a href="#resources">Principais recursos</a>
+            <a href="#libraries">Bibliotecas</a>
+        </nav>
+        
+        <section id="links-ref">
+            <h2>Links de Referência:</h2>
+            <ul>
+                <li><a href="https://aws.amazon.com/pt/what-is/python/#:~:text=altera%C3%A7%C3%B5es%20no%20c%C3%B3digo.-,Qual%20%C3%A9%20a%20hist%C3%B3ria%20do%20Python%3F,manter%20ocupado%20durante%20o%20Natal.">AWS Amazon</a></li>
+                <li><a href="https://pt.wikipedia.org/wiki/Python">Wikipedia</a></li>
+                <li><a href="https://www.treinaweb.com.br/blog/principais-ides-para-desenvolvimento-python">TREINAWEB</a></li>
+            </ul>
+        </section>
+
+        <article id="article">
+            <h2>Artigo</h2>
+            <p class="paragrafo">Python é uma linguagem de programação de alto nível, interpretada de script, imperativa, orientada a objetos, funcional, de tipagem dinâmica e forte. Foi lançada por Guido van Rossum em 1991. Atualmente, possui um modelo de desenvolvimento comunitário, aberto e gerenciado pela organização sem fins lucrativos Python Software Foundation. Apesar de várias partes da linguagem possuírem padrões e especificações formais, a linguagem, como um todo, não é formalmente especificada. O padrão na pratica é a implementação CPython.</p>
+            <p class="paragrafo">A linguagem foi projetada com a filosofia de enfatizar a importância do esforço do programador sobre o esforço computacional. Prioriza a legibilidade do código sobre a velocidade ou expressividade. Combina uma sintaxe concisa e clara com os recursos poderosos de sua biblioteca padrão e por módulos e frameworks desenvolvidos por terceiros.</p>
+            <p class="paragrafo">Python é uma linguagem de propósito geral de alto nível, multiparadigma, suporta o paradigma orientado a objetos, imperativo, funcional e procedural. Possui tipagem dinâmica e uma de suas principais características é permitir a fácil leitura do código e exigir poucas linhas de código se comparado ao mesmo programa em outras linguagens. Devido às suas características, ela é utilizada, principalmente, para processamento de textos, dados científicos e criação de CGIs para páginas dinâmicas para a web. Foi considerada pelo público a 3ª linguagem "mais amada", de acordo com uma pesquisa conduzida pelo site Stack Overflow em 2018 e está entre as 5 linguagens mais populares, de acordo com uma pesquisa conduzida pela RedMonk.</p>
+            <p class="paragrafo">O nome <strong>Python</strong> teve a sua origem no grupo humorístico britânico Monty Python, criador do programa Monty Python's Flying Circus, embora muitas pessoas façam associação com o réptil do mesmo nome (em português, píton ou pitão).</p>
+        </article>
+
+        <section id="history">
+            <h2>Qual é a história de Python?</h2>
+            <p class="paragrafo">Guido Van Rossum, um programador de computador na Holanda, criou o Python. Ele começou em 1989 no Centrum Wiskunde & Informatica (CWI), inicialmente como um projeto de hobby para se manter ocupado durante o Natal. O nome da linguagem foi inspirado no programa de TV da BBC “Monty Python’s Flying Circus”, porque Guido Van Rossum era um grande fã do programa.</p>
+            <ul>
+                <li>
+                    <p class="paragrafo">Guido Van Rossum publicou a primeira versão do código Python (versão 0.9.0) em 1991. Ela já incluía bons recursos, como alguns tipos de dados e funções para tratamento de erros. </p>
+                </li>
+                <li>
+                    <p class="paragrafo">O Python 1.0 foi lançado em 1994 com novas funções para processar facilmente uma lista de dados, como mapear, filtrar e reduzir.</p>
+                </li>
+                <li>
+                    <p class="paragrafo">O Python 2.0 foi lançado em 16 de outubro de 2000, com novos recursos úteis para programadores, como suporte para caracteres Unicode e um modo mais rápido de percorrer uma lista.</p>
+                </li>
+                <li>
+                    <p class="paragrafo">Em 3 de dezembro de 2008, foi lançado o Python 3.0. Ele incluía recursos como a função de impressão e mais suporte para divisão de números e tratamento de erros. </p>
+                </li>
+            </ul>
+        </section>
+
+        <section id="syntax-semantics">
+            <h2>Construções</h2>
+            <div id="python-construction">
+                <p class="paragrafo">Construções de Python incluem: estrutura de seleção (if, else, elif); estrutura de repetição (for, while), que itera por um container, capturando cada elemento em uma variável local dada; construção de classes (class); construção de sub-rotinas (def); construção de escopo (with), como por exemplo para adquirir um recurso.</p>
+                <img src="imagens/hierarchy python.png" alt="O tipo padrão de hierarquia">
+            </div>
+        </section>
+
+        <section id="data-types">
+            <h2>Tipo de dados</h2>
+            <p class="paragrafo">A tipagem de Python é forte, pois os valores e objetos têm tipos bem definidos e não sofrem coerções como em C ou Perl. São disponibilizados diversos tipos de dados nativos:</p>
+            <table width="250" align-itens="center" cellspacing="0" cellpadding="0">
+                <thead>
+                    <tr>
+                        <th>Tipo de dado</th>
+                        <th>Descrição</th>
+                        <th>Exemplo da sintaxe</th>
+                    </tr>
+                </thead>
+
+                <tbody>
+                    <tr>
+                        <td><code>bool</code></td>
+                        <td>Booleano</td>
+                        <td><code>True</code> ou <code>False</code></td>
+                    </tr>
+                    <tr>
+                        <td><code>int</code></td>
+                        <td>Número de precisão fixa, é transparentemente convertido para <code>long</code> caso não caiba em um int.</td>
+                        <td><code>42<br>2147483648L</code></td>
+                    </tr>
+                    <tr>
+                        <td><code>float</code></td>
+                        <td>Ponto flutuante</td>
+                        <td><code>3.1415927</code></td>
+                    </tr>
+                    <tr>
+                        <td><code>complex</code></td>
+                        <td>Número complexo</td>
+                        <td><code>3+2j</code></td>
+                    </tr>
+                    <tr>
+                        <td><code>list</code></td>
+                        <td>Lista heterogênea mutável</td>
+                        <td><code>[4.0, 'string', True]</code></td>
+                    </tr>
+                    <tr>
+                        <td><code>tuple</code></td>
+                        <td>Tupla imutável</td>
+                        <td><code>(4.0, 'string', True)</code></td>
+                    </tr>
+                    <tr>
+                        <td><code>range</code></td>
+                        <td>Sequência de números imutável que pode ser transformada em lista</td>
+                        <td><code>range(10) <br> range(0, 10) <br>range(0, 10, 1)</code></td>
+                    </tr>
+                    <tr>
+                        <td><code>set</code>, <code>frozenset</code></td>
+                        <td>Conjunto não ordenado, não contém elementos duplicados</td>
+                        <td><code>{4.0, 'string', True} <br>frozenset([4.0, 'string', True])</code></td>
+                    </tr>
+                    <tr>
+                        <td><code>str</code>, <code>unicode</code></td>
+                        <td>Uma cadeia de caracteres imutável</td>
+                        <td><code>'Wikipedia' <br>u'Wikipedia'</code></td>
+                    </tr>
+                    <tr>
+                        <td><code>bytes</code>, <br><code>bytearray</code>, <br><code>memoryview</code></td>
+                        <td>Sequência binária</td>
+                        <td><code>b'Wikipedia' <br>bytearray(b'Wikipedia') <br>memoryview(b'Wikipedia')</code></td>
+                    </tr>
+                    <tr>
+                        <td><code>dict</code></td>
+                        <td>Conjunto associativo</td>
+                        <td><code>{'key1': 1.0, 'key2': False}</code></td>
+                    </tr>
+                </tbody>
+            </table>
+            <p class="paragrafo">Python também permite a definição dos tipos de dados próprios, através de classes. Instâncias são construídas invocando a classe (<code>FooClass()</code>), e as classes são instância da classe <code>type</code>, o que permite metaprogramação e reflexão. Métodos são definidos como funções anexadas à classe, e a sintaxe <code>instância.método(argumento)</code> é um atalho para <code>Classe.método(instância, argumento)</code>. Os métodos devem referenciar explicitamente a referência para o objeto incluindo o parâmetro <code>self</code> como o primeiro argumento do método.</p>
+            <p class="paragrafo">Antes da versão 3.0, Python possuía dois tipos de classes: "old-style" e "new-style". Classes old-style foram eliminadas no Python 3.0, e todas são new-style. Em versões entre 2.2 e 3.0, ambos tipos de classes podiam ser usadas. A sintaxe de ambos estilos é a mesma, a diferença acaba sendo de onde objeto da classe é herdado, direta ou indiretamente (todas classes new-style herdam de object e são instancias de type). As classes new-styles nada mais são que tipos definidos pelo usuário.</p>
+        </section>
+
+        <section id="resources">
+            <h2>Quais são os principais recursos do Python?</h2>
+            <p class="paragrafo">Os seguintes recursos da linguagem de programação Python a tornam única:</p>
+            <h3>Uma linguagem interpretada</h3>
+            <p class="paragrafo">O Python é uma linguagem interpretada, o que significa que executa diretamente o código linha por linha. Se houver erros no código do programa, ele será interrompido. Portanto, os programadores podem encontrar rapidamente erros no código.</p>
+            <h3>Uma linguagem fácil de usar</h3>
+            <p class="paragrafo">O Python usa palavras semelhantes às do inglês. Ao contrário de outras linguagens de programação, o Python não usa chaves. Em vez disso, usa recuo. </p>
+            <h3>Uma linguagem com tipos dinâmicos</h3>
+            <p class="paragrafo">Os programadores não precisam declarar tipos de variáveis ao escrever o código, porque o Python os determina no tempo de execução. Dessa forma, é possível escrever programas Python mais rapidamente.</p>
+            <h3>Uma linguagem de alto nível</h3>
+            <p class="paragrafo">O Python está mais próximo das linguagens humanas do que outras linguagens de programação. Portanto, os programadores não precisam se preocupar com suas funcionalidades subjacentes, como arquitetura e gerenciamento de memória.</p>
+            <h3>Uma linguagem orientada a objetos</h3>
+            <p class="paragrafo">O Python considera tudo como um objeto, mas também aceita outros tipos de programação, como estruturada e funcional.   </p>
+        </section>
+
+        <section id="libraries">
+            <h2>O que são bibliotecas Python?</h2>
+            <p class="paragrafo">Uma biblioteca é uma coleção de códigos usados com frequência que os desenvolvedores podem incluir em seus programas Python para evitar escrever o código do zero. Por padrão, o Python vem com a Standard Library, que contém muitas funções reutilizáveis. Além disso, mais de 137 mil bibliotecas Python estão disponíveis para várias aplicações, incluindo desenvolvimento Web, ciência de dados e machine learning (ML).</p>
+            <h3>Quais são as bibliotecas Python mais populares?</h3>
+            <h4>Matplotlib</h4>
+            <p class="paragrafo">Os desenvolvedores usam o Matplotlib para representar dados em gráficos bidimensionais e tridimensionais (2D e 3D) de alta qualidade. É frequentemente usado em aplicações científicas. Com o Matplotlib, é possível visualizar dados em diferentes gráficos, como de barras e de linhas. Você também pode criar vários gráficos de uma só vez, e é possível fazer a portabilidade dos gráficos entre todas as plataformas.</p>
+            <h4>Pandas</h4>
+            <p class="paragrafo">O Pandas fornece estruturas de dados otimizadas e flexíveis para manipular dados de séries temporais e dados estruturados, como tabelas e matrizes. Por exemplo, use o Pandas para ler, gravar, mesclar, filtrar e agrupar dados. Muitas pessoas o usam para ciência de dados, análise de dados e tarefas de ML.</p>
+            <h4>NumPy</h4>
+            <p class="paragrafo">O NumPy é uma biblioteca popular que os desenvolvedores usam para criar e gerenciar facilmente arrays, manipular formas lógicas e realizar operações de álgebra linear. É compatível com a integração com muitas linguagens, como C e C++.</p>
+            <h4>Requests</h4>
+            <p class="paragrafo">A biblioteca Requests fornece funções úteis que são necessárias para o desenvolvimento Web. Você pode usá-la para enviar solicitações HTTP, adicionar cabeçalhos, adicionar parâmetros de URL, adicionar dados e executar muitas outras tarefas ao se comunicar com aplicações da Web. </p>
+            <h4>OpenCV-Python</h4>
+            <p class="paragrafo">A OpenCV-Python é uma biblioteca que os desenvolvedores usam para processar imagens para aplicações de visão computacional. Ela fornece muitas funções para tarefas de processamento de imagens, como leitura e gravação de imagens simultaneamente, construção de um ambiente 3D com base em um ambiente 2D e captura e análise de imagens de vídeo.</p>
+            <h4>Keras</h4>
+            <p class="paragrafo">A Keras é a biblioteca de rede neural profunda do Python, com excelente suporte para processamento de dados, visualização e muito mais. Ela é compatível com muitas redes neurais. Tem uma estrutura modular que oferece flexibilidade na escrita de aplicações de inovação.</p>
+        </section>
+
+        <section id="development">
+            <h2>Principais IDEs para desenvolvimento Python</h2>
+            <div id="eclipse">
+                <h3>Eclipse</h3>
+                <img src="imagens/Logo-Eclipse.png" alt="Logo da linguagem de programação Eclipse">
+                <p class="paragrafo">Lançada em 2001 pela IBM, sobre a licença EPL (Eclipse Public Licence), o Eclipse é uma IDE para desenvolvimento em Python que também suporta diversas outras linguagens apenas com a instalação de plugins (C/C++, PHP, Java, Kotlin, entre outras).</p>
+                <p class="paragrafo">Multiplataforma, é possível realizar seu download em diferentes sistemas operacionais como windows, linux e macOS.</p>
+                <p class="paragrafo">Dentre suas principais características podemos citar:</p>
+                <ul>
+                    <li>Tecnologia baseada em plugins: Através da instalação de plugins, o desenvolvedor poderá incrementar as funcionalidades do Eclipse;</li>
+                    <li>Fornece vários pacotes de desenvolvimento para o Python: Com o Eclipse podemos instalar diversos pacotes de desenvolvimento para facilitar a codificação de aplicações Python (seja web ou script).</li>
+                </ul>
+                <p class="paragrafo">O Eclipse é uma excelente IDE, muito utilizada no mercado. Seu uso facilita a criação de aplicações Python tanto para Desktop ou Web. O <a href="https://www.eclipse.org/downloads/">download do Eclipse</a> poderá ser realizado em seu próprio site.</p>
+            </div>
+
+            <div id="pycharm">
+                <h3>PyCharm</h3>
+                <img src="imagens/Logo-PyCharm.png" alt="Logo da linguagem de programação Pycharm">
+                <p class="paragrafo">Lançado em 2010 pela JetBrains, o PyCharm é uma das IDEs mais utilizadas por quem programa em Python.</p>
+                <p class="paragrafo">Multiplataforma, é uma IDE utilizada por diversas empresas, como Twitter, Symantec, HP, Groupon, entre outras.</p>
+                <p class="paragrafo">Dentre suas principais vantagens, podemos citar:</p>
+                <ul>
+                    <li>Fornece análise de código;</li>
+                    <li>Suporta desenvolvimento da Web com Django;</li>
+                    <li>Possui suporte a testes unitários integrado;</li>
+                    <li>Suporte para VCS;</li>
+                    <li>Depurador gráfico;</li>
+                    <li>Recurso de desenvolvimento remoto;</li>
+                    <li>Preenchimento de código inteligente;</li>
+                    <li>Integração com ferramentas e bibliotecas, como NumPy e Matplotlib, permitindo o desenvolvedor trabalhar com visualizadores de matriz e gráficos interativos;</li>
+                    <li>Verificação dinâmica de erros, entre outros.</li>
+                </ul>
+                <p class="paragrafo">Além de todas essas vantagens, o PyCharm conta com desenvolvimento multitecnologias, onde, além do Python, oferece suporte para CoffeeScript, TypeScript, Cython, JavaScript, SQL, HTML/CSS, linguagens de modelo, AngularJS, Node.js e muitas outras.</p>
+                <p class="paragrafo">O <a href="https://www.jetbrains.com/pt-br/pycharm/">download do PyCharm</a> é feito em seu próprio site, onde é possível acompanhar todas as suas novidades, recursos, suporte e muito mais.</p>
+            </div>
+            
+            <div id="jupyter">
+                <h3>Jupyter Notebook</h3>
+                <img src="imagens/Logo-Jupyter.png" alt="Logo da linguagem de programação Jupyter">
+                <p class="paragrafo">Criada em 2014, derivado do IPython, o Jupyter Notebook é baseada na estrutura servidor-cliente, que permite a manipulação de documentos.</p>
+                <p class="paragrafo">O nome do projeto, é uma referência às três principais linguagens de programação que são suportadas pelo Jupyter: Julia, Python e R.</p>
+                <p class="paragrafo">o Jupyter Notebook independe de linguagem e suporta diversos ambientes de execução, entre elas: Julia, R, Haskell, Ruby, e o próprio Python.</p>
+                <p class="paragrafo">Dentre suas principais vantagens, podemos citar:</p>
+                <ul>
+                    <li>Ambiente interativo de ciência de dados;</li>
+                    <li>Excelente opção para quem inicia na ciência de dados;</li>
+                    <li>Suporte a remarcações;</li>
+                    <li>Permite a adição de componentes HTML de imagens e vídeos;</li>
+                    <li>Edição de código atraente, entre outros.</li>
+                </ul>
+                <p class="paragrafo">Para <a href="https://jupyter.org/install">instalar o Jupyter</a> Notebook basta acessar o seu site, onde você também encontrará toda a sua documentação, blog, novidades e muito mais.</p>
+            </div>
+
+            <div id="spyder">
+                <h3>Spyder</h3>
+                <img src="imagens/Logo-Spyder.png" alt="Logo da linguagem de programação Spyder">
+                <p class="paragrafo">Multiplataforma e de código aberto, o Spyder é outra opção para desenvolvedores Python, muito utilizado principalmente por cientistas de dados, já que possui integração com as principais bibliotecas como NumPy, SciPy, Matplotlib e IPython.</p>
+                <p class="paragrafo">Lançado sobre a licença MIT em 2009, é mantido atualmente por uma equipe de desenvolvedores científicos em Python e pela comunidade.</p>
+                <p class="paragrafo">Dentre suas principais características, podemos citar:</p>
+                <ul>
+                    <li>Combinação exclusiva das funcionalidades avançadas de edição, análise, depuração e criação;</li>
+                    <li>Sistema de plugins;</li>
+                    <li>Pode ser utilizado como uma biblioteca de extensão PyQt5;</li>
+                    <li>Console interativo, entre outros.</li>
+                </ul>
+                <p class="paragrafo">O <a href="https://www.spyder-ide.org/">download do Spyder</a> poderá ser feito em seu site, onde também é possível verificar seus plugins, componentes e muito mais.</p>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div id="nav-footer">
+            <nav id="choice-theme">
+                <a href="#article">Artigo</a>
+                <a href="#history">História</a>
+                <a href="#syntax-semantics">Sintaxe e semântica</a>
+                <a href="#data-types">Tipos de dados</a>
+                <a href="#resources">Principais recursos</a>
+                <a href="#libraries">Bibliotecas</a>
+            </nav>
+        </div>
+        <div id="copyright">
+            Desenvolvido por <a href="https://github.com/GabrielF27" target="_blank">@GabrielF27</a>
+        </div>
+    </footer>
+</body>
+</html>
